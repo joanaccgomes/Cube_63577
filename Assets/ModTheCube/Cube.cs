@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Cube : MonoBehaviour
 {
+
     public MeshRenderer Renderer;
     
     void Start()
     {
+
         transform.position = new Vector3(3, 4, 1);
         transform.localScale = Vector3.one * 2.5f; //Cheaged Scale
         
